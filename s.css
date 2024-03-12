@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f0f0f0; */
+    background: linear-gradient(45deg,rgb(226, 138, 153) , rgb(110, 95, 191));
+}
+
+.container {
+    position: relative;
+}
+
+.box {
+    width: 1200px;
+    height: 500px;
+    background-color:white;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.circle {
+    position: absolute;
+    top: 50px; /* Adjust the value to position the circle */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    background-color: #e1dcdc;
+    border-radius: 50%;
+    border-color:black ;
+}
+.text {
+    color: rgb(132, 129, 129);
+    font-size: 16px;
+    font-weight: bold;
+    display:grid;
+    /* position:absolute; */
+    display:grid;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px; /* Adjust spacing between circle and text */
+}
+.circle img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+ 
+.follow{
+    position: absolute;
+    /* bottom: 400px; */
+    display:grid;
+    justify-content: center;
+    margin-top:150px;
+    margin-left:450px;
+} 
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top:300px;
+    
+}
+
+.social-media img {
+    width: 30px; /* Set the width of the social media logos */
+    height: 30px; /* Set the height of the social media logos */
+    margin: 0 10px; /* Adjust spacing between social media logos */
+}
+
+.buttons {
+    position: absolute;
+    bottom: 200px;
+    left: 40px; /* Adjust the value to change the distance from the bottom */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button {
+    margin: 0 100px;
+    padding: 15px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
